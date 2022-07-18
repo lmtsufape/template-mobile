@@ -23,9 +23,9 @@ O template vem com diversos comentários de documentação. Siga-os.
     - Cliente HTTP usado para fazer requisições HTTP. Dio é o melhor cliente http para flutter, extremamente fácil de usar
    ### Logging
     - API de logger, bom para capturar logs no flutter.
-#Arquitetura, organização de pastas ETC.
-  ##O projeto já vem com um padrão de pastas pré definido. É aconselhável que se siga esse padrão para melhor manutenção de código e para padronização do projeto.
-    ###Assets:
+# Arquitetura, organização de pastas ETC.
+  ## O projeto já vem com um padrão de pastas pré definido. É aconselhável que se siga esse padrão para melhor manutenção de código e para padronização do projeto.
+    ### Assets:
       - Esta pasta guarda todos os arquivos de assets do projeto. Coloque aqui todos os arquivos externos do projeto como: imagens, ícones, jsons pré carregados etc...
     
 ## Como começar
