@@ -28,6 +28,15 @@ O template vem com diversos comentários de documentação. Siga-os.
     ### Assets:
       - Esta pasta guarda todos os arquivos de assets do projeto. Coloque aqui todos os arquivos 
       externos do projeto como: imagens, ícones, jsons pré carregados etc...
+    ##Uso do Gerenciador de estado e estrutura de arquivos e pastas
+      - Todas as telas devem seguir esse padrão: 
+          -- NAME_OF_THE_SCREEN_FOLDER
+              -- name_of_the_screen_screen.dart
+              -- **_controller.dart
+              -- **_repository.dart
+         Onde o nome da tela deve ser o prefixo para o controller e o repositório.
+    ##Componentes
+      - Os componentes são de dois tipos: os locais e os globais. Os locais são componentes que pertencem a determinada tela ou outro componente, estes não são compartilhados por todo o projeto, servido apenas para um propósito local. Já os componentes globais são aqueles que são compartilhados por todo o app, podendo ser reutilizado em qualquer tela ou outro componente. Esses componentes devem ficar numa pasta chamada "shared". 
     
 ## Como começar
 Baixe o template, renomeie suas dependências de caminho
